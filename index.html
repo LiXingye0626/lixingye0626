@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>李星烨 - 个人简历</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background: #f5f7fa;
+            padding: 20px;
+            color: #333;
+        }
+        .resume {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        .title {
+            text-align: center;
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #222;
+        }
+        .section {
+            margin-bottom: 28px;
+        }
+        .section h2 {
+            font-size: 18px;
+            color: #1f6feb;
+            border-left: 4px solid #1f6feb;
+            padding-left: 10px;
+            margin-bottom: 12px;
+        }
+        .info-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-bottom: 6px;
+        }
+        .info-row span {
+            font-size: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 8px;
+            font-size: 14px;
+        }
+        table th, table td {
+            border: 1px solid #eee;
+            padding: 10px;
+            text-align: left;
+        }
+        table th {
+            background: #f8f9fa;
+        }
+        .project-item {
+            margin-bottom: 16px;
+        }
+        .project-item h3 {
+            font-size: 16px;
+            margin-bottom: 6px;
+            color: #222;
+        }
+        .project-item p {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #444;
+            margin-left: 6px;
+        }
+        ul {
+            margin-left: 20px;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 13px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <div class="title">个人简历</div>
+
+        <div class="section">
+            <h2>基本信息</h2>
+            <div class="info-row">
+                <span><strong>姓名：</strong>李星烨</span>
+                <span><strong>性别：</strong>女</span>
+                <span><strong>年龄：</strong>21</span>
+            </div>
+            <div class="info-row">
+                <span><strong>电话：</strong>13942060827</span>
+                <span><strong>邮箱：</strong>1460422411@qq.com</span>
+            </div>
+            <div class="info-row">
+                <span><strong>求职意向：</strong>全栈开发工程师 / AI应用开发工程师 / 前端开发工程师</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>教育背景</h2>
+            <p><strong>大连东软信息学院 | 计算机科学与技术 | 本科 | 2023.09 - 2027.06</strong></p>
+            <p style="font-size:14px; margin-top:6px;">核心课程：数据结构、Java/Python/C、数据库、计算机网络、OpenHarmony开发、互联网应用开发、高级网页设计、Web架构</p>
+            <p style="font-size:14px; margin-top:4px;">GPA：3.6/4.0，专业排名前15%</p>
+            <p style="font-size:14px; margin-top:4px;">荣誉：校级二等奖学金、三等奖学金、优秀学生干部、创新创业先进个人</p>
+        </div>
+
+        <div class="section">
+            <h2>专业技能</h2>
+            <table>
+                <tr>
+                    <th>分类</th>
+                    <th>技术栈</th>
+                </tr>
+                <tr>
+                    <td>前端</td>
+                    <td>HTML5/CSS3/JS/TS/ES6、Vue3 + Pinia、React、Electron、Uniapp、Nuxt、ECharts/DataV/G6/D3/Three.js、Canvas/SVG/Mock</td>
+                </tr>
+                <tr>
+                    <td>AI与知识库</td>
+                    <td>LangChain、RAG、AI原型设计、CodeBuddy、Trae、Claude Code</td>
+                </tr>
+                <tr>
+                    <td>后端</td>
+                    <td>Spring Boot、MyBatis-Plus、Koa2、Express、REST API</td>
+                </tr>
+                <tr>
+                    <td>数据库</td>
+                    <td>MySQL、Redis、MySQL Workbench</td>
+                </tr>
+                <tr>
+                    <td>移动端</td>
+                    <td>OpenHarmony(ArkTS)、Android(Java)</td>
+                </tr>
+                <tr>
+                    <td>工程化</td>
+                    <td>Git(GitHub/Gitee)、Docker、部署、调试</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>项目经历</h2>
+
+            <div class="project-item">
+                <h3>1. 智能知识库问答助手（AI + 全栈）</h3>
+                <p>2024.09 - 至今 | LangChain + Koa2 + MySQL + Redis + Vue3 + G6/Three.js</p>
+                <p>• 基于LangChain搭建RAG知识库，支持文档上传、切片、向量检索与大模型问答</p>
+                <p>• 后端API、Redis缓存；Vue3实现对话界面；G6/Three.js实现知识图谱与3D可视化</p>
+            </div>
+
+            <div class="project-item">
+                <h3>2. 智慧校园数据大屏系统（全栈 + 可视化）</h3>
+                <p>2024.07 - 2024.10 | Spring Boot + MyBatis-Plus + MySQL + Redis + Vue3 + ECharts/DataV/G6/D3</p>
+                <p>• 开发数据接口与缓存；完成数据大屏、实时图表、设备拓扑、关系网络可视化</p>
+            </div>
+
+            <div class="project-item">
+                <h3>3. 京东电商网站仿制 + 小程序版（前端 + 跨端）</h3>
+                <p>2024.02 - 2024.04 | Vue3 + TS + Pinia + Uniapp + Nuxt + Canvas/SVG</p>
+                <p>• PC/移动端/小程序三端开发；Canvas绘制雷达图；SVG动画；Mock数据联调</p>
+            </div>
+
+            <div class="project-item">
+                <h3>4. OpenHarmony智能备忘录（鸿蒙 + ArkTS）</h3>
+                <p>2024.03 - 2024.06 | OpenHarmony + ArkTS + Canvas + DevEco Studio</p>
+                <p>• 鸿蒙原生应用，增删改查、标签、提醒、Canvas手绘；获课程优秀设计奖</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>实践与成果</h2>
+            <ul>
+                <li>班级学习委员：组织编程小组，专业通过率提升至98%</li>
+                <li>SOVO创业中心成员：参与项目孵化、AI编程讲座</li>
+                <li>GitHub开源：维护AI-tools仓库，分享LangChain、Mock模板等</li>
+                <li>持续跟进AI工程化、前端可视化、全栈最佳实践</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>自我评价</h2>
+            <p style="font-size:14px; line-height:1.7;">
+                科班出身，扎实全栈开发能力，熟练Vue/React/Uniapp，擅长数据大屏与可视化；可基于LangChain快速搭建RAG知识库，熟练使用AI工具提升效率；掌握SpringBoot、Koa2、MySQL/Redis、Mock与部署。学习能力强，乐于落地前沿技术，致力于成为懂业务、能交付的全栈+AI工程师。
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>作品链接</h2>
+            <p style="font-size:14px;">GitHub：github.com/xxx</p>
+            <p style="font-size:14px;">数据大屏Demo / 鸿蒙备忘录演示视频</p>
+        </div>
+
+        <div class="footer">© 2026 李星烨 - 个人简历</div>
+    </div>
+</body>
+</html>
